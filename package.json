@@ -1,0 +1,18 @@
+{
+  "name": "workshop-apicon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Eduardo Galego",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "botkit-middleware-watson": "^1.6.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "botkit-webchat": "^0.2.3"
+  }
+}
