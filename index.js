@@ -40,7 +40,7 @@ controller.on('facebook_optin', function(bot, message) {
     bot.reply(message, 'Welcome to my app!');
 });
 
-controller.hears('testando', 'direct_message', function(bot, message) {
+controller.hears('testando', 'message_received', function(bot, message) {
   bot.reply(message,'Echo testando...!');
 });
 
